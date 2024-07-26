@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "anixm"
-          entrypoint: "./index.js"
+          entrypoint: "node index.js"
           root: ""
