@@ -1,0 +1,20 @@
+{
+  "name": "anixm-api",
+  "version": "1.0.0",
+  "description": "API для AnixM, предоставляющий данные о релизах аниме.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
